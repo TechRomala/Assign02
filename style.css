@@ -1,0 +1,40 @@
+.body{
+    background-color: white;
+}
+
+.personal#first{
+    margin: 20px;
+    text-align: left;
+    float: left;
+}
+
+.personal#second{
+    margin-left: auto;
+    margin-right: auto;
+}
+.AboutMe{
+    width: 500px;
+    height: 523px;
+    margin: 20px;
+    
+}
+.AboutMe#one{
+    margin: 20px;
+    margin-left: 100px;
+    float:left;
+}
+.AboutMe#two{
+    margin-right: 150px;
+    text-align: center;
+    float: right;
+    
+}
+
+.JobDetails{
+    width: 300px;
+    height: 200px;
+    border: 2px solid black;
+    text-align: center;
+    float: left;
+    margin: 20px;
+}
