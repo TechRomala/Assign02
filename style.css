@@ -1,11 +1,12 @@
 .body{
     background-color: aliceblue;
-    padding: 20px;
+    
 }
 
 .personal{
     margin-left: 100px;
 }
+
 .personal#first{
     text-align: left;
     float: left;
