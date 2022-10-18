@@ -3,33 +3,46 @@
     padding: 20px;
 }
 
+.personal{
+    margin-left: 100px;
+}
 .personal#first{
-    margin: 20px;
     text-align: left;
+    float: left;
+    
+}
+.personal#second{
+    align-items: center;
+    margin: auto;
+}
+.h2{
+    text-align: center;
+}
+.AboutMe{
+    width: 350px;
+    height: 523px;
+    margin: 20px;
+    flex-direction: row;
     float: left;
 }
 
-.personal#second{
-    margin-left: auto;
-    margin-right: auto;
-
+.AboutMe#one{
+    margin-left: 150px;
+    width: 350px;
+    height: 523px;
+    float:left;
+    clear: none;
 }
-.AboutMe{
+
+.AboutMe#two{
+    margin-right: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
     width: 500px;
     height: 523px;
-    margin: 20px;
-    
-}
-.AboutMe#one{
-    margin: 20px;
-    margin-left: 100px;
-    float:left;
-}
-.AboutMe#two{
-    margin-right: 150px;
-    text-align: center;
-    float: right;
-    
 }
 
 .JobDetails{
@@ -38,7 +51,11 @@
     border: 2px solid black;
     text-align: center;
     float: left;
+    flex-direction: row;
     margin: 20px;
+    align-items: left;
+    justify-items: center;
+    
 }
 .JobDetails#img{
     float: left;
